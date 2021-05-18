@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=gb2312"%>
+<div align="center">
+<font color=red><H3> 小区物业管理网 </H3></font>
+<tabtle cellSpacing="1" cellPandding="1" width="660" algin="center" border="0">
+<tr valign="bottom">
+<td><a href="inputUser.jsp"><font color=red>添加系统用户</font></a></td>
+<td><a href="queryAllServlet"><font color=red>浏览用户信息</font></a></td>
+<td><a href="adminPage.jsp"><font color=red>主页</font></a></td>
+<td><a href="login.jsp"><font color=red>退出</font></a></td>
+</tr>
+</table>
+</div>

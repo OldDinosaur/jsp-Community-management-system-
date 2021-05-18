@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>myservlet.login.loginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>loginServlet</servlet-name>
+  <url-pattern>/loginServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>inputServlet</servlet-name>
+    <servlet-class>myservlet.login.inputServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>inputServlet</servlet-name>
+  <url-pattern>/inputServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>queryAllServlet</servlet-name>
+    <servlet-class>myservlet.login.viewServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>queryAllServlet</servlet-name>
+  <url-pattern>/queryAllServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>deleteServlet</servlet-name>
+    <servlet-class>myservlet.login.deleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>deleteServlet</servlet-name>
+  <url-pattern>/deleteServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>alterServlet</servlet-name>
+    <servlet-class>myservlet.login.alterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>alterServlet</servlet-name>
+  <url-pattern>/alterServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>updateServlet</servlet-name>
+    <servlet-class>myservlet.login.updateServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>updateServlet</servlet-name>
+  <url-pattern>/updateServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>houseServlet</servlet-name>
+    <servlet-class>myservlet.login.houseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>houseServlet</servlet-name>
+  <url-pattern>/houseServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>viewhouseServlet</servlet-name>
+    <servlet-class>myservlet.login.viewhouseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>viewhouseServlet</servlet-name>
+  <url-pattern>/viewhouseServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>deletehouseServlet</servlet-name>
+    <servlet-class>myservlet.login.deletehouseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>deletehouseServlet</servlet-name>
+  <url-pattern>/deletehouseServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>alterhouseServlet</servlet-name>
+    <servlet-class>myservlet.login.alterhouseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>alterhouseServlet</servlet-name>
+  <url-pattern>/alterhouseServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>updatehouseServlet</servlet-name>
+    <servlet-class>myservlet.login.updatehouseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>updatehouseServlet</servlet-name>
+  <url-pattern>/updatehouseServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>chargeServlet</servlet-name>
+    <servlet-class>myservlet.login.chargeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>chargeServlet</servlet-name>
+  <url-pattern>/chargeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>viewchargeServlet</servlet-name>
+    <servlet-class>myservlet.login.viewchargeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>viewchargeServlet</servlet-name>
+  <url-pattern>/viewchargeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>deletechargeServlet</servlet-name>
+    <servlet-class>myservlet.login.deletechargeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>deletechargeServlet</servlet-name>
+  <url-pattern>/deletechargeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>alterchargeServlet</servlet-name>
+    <servlet-class>myservlet.login.alterchargeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>alterchargeServlet</servlet-name>
+  <url-pattern>/alterchargeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>updatechargeServlet</servlet-name>
+    <servlet-class>myservlet.login.updatechargeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>updatechargeServlet</servlet-name>
+  <url-pattern>/updatechargeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>staffServlet</servlet-name>
+    <servlet-class>myservlet.login.staffServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>staffServlet</servlet-name>
+  <url-pattern>/staffServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>viewstaffServlet</servlet-name>
+    <servlet-class>myservlet.login.viewstaffServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>viewstaffServlet</servlet-name>
+  <url-pattern>/viewstaffServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>alterstaffServlet</servlet-name>
+    <servlet-class>myservlet.login.alterstaffServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>alterstaffServlet</servlet-name>
+  <url-pattern>/alterstaffServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>updatestaffServlet</servlet-name>
+    <servlet-class>myservlet.login.updatestaffServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>updatestaffServlet</servlet-name>
+  <url-pattern>/updatestaffServlet</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>

@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=gb2312"%>
+<div align="center">
+<font color=red><H3> 小区物业管理网 </H3></font>
+<tabtle cellSpacing="1" cellPandding="1" width="660" algin="center" border="0">
+<tr valign="bottom">
+<td><a href="inputHouse.jsp"><font color=red>添加房产信息</font></a></td>
+<td><a href="viewhouseServlet"><font color=red>浏览房产信息</font></a></td>
+<td><a href="inputCharge.jsp"><font color=red>新增收费单</font></a></td>
+<td><a href="viewchargeServlet"><font color=red>浏览收费单信息</font></a></td>
+<td><a href="inputStaff.jsp"><font color=red>新增员工信息</font></a></td>
+<td><a href="viewstaffServlet"><font color=red>浏览员工信息</font></a></td>
+<td><a href="userPage.jsp"><font color=red>主页</font></a></td>
+<td><a href="login.jsp"><font color=red>退出</font></a></td>
+</tr>
+</table>
+</div>
